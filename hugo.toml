@@ -1,0 +1,32 @@
+baseURL = "https://example.com"
+languageCode = "en-uk"
+title = "Example YinYong Blog"
+theme = "yinyang"
+DefaultContentLanguage = "en"
+
+[params.author]
+  name = "Andrew Tan"
+  homepage = "https://siqitan.com/"
+
+[languages]
+  [languages.en]
+    contentDir = "content/en"
+    languageName = "English"
+    weight = 1
+  [languages.cn]
+    contentDir = "content/cn"
+    languageName = "Chinese"
+    weight = 2
+
+[params]
+disqus = "joway" # disqus account name
+extraHead = ''
+mainSections = ["posts"]
+
+[[params.socials]]
+name = "RSS"
+link = "/index.xml"
+
+[[params.socials]]
+name = "About"
+link = "https://joway.io"
