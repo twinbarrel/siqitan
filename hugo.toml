@@ -1,6 +1,6 @@
-baseURL = "https://example.com"
+baseURL = "https://siqitan.com"
 languageCode = "en-uk"
-title = "Example YinYong Blog"
+title = "Musings"
 theme = "yinyang"
 DefaultContentLanguage = "en"
 
@@ -8,18 +8,8 @@ DefaultContentLanguage = "en"
   name = "Andrew Tan"
   homepage = "https://siqitan.com/"
 
-[languages]
-  [languages.en]
-    contentDir = "content/en"
-    languageName = "English"
-    weight = 1
-  [languages.cn]
-    contentDir = "content/cn"
-    languageName = "Chinese"
-    weight = 2
-
 [params]
-disqus = "joway" # disqus account name
+headTitle = "Andrew Tan"
 extraHead = ''
 mainSections = ["posts"]
 
@@ -29,4 +19,8 @@ link = "/index.xml"
 
 [[params.socials]]
 name = "About"
-link = "https://joway.io"
+link = "https://siqitan.com"
+
+[[params.socials]]
+name = "Twitter"
+link = "https://x.com/andrewsqtan"

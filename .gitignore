@@ -1,0 +1,26 @@
+# Hugo build and output directories
+public/
+resources/
+
+# Hugo-generated files
+hugo_stats.json
+
+# Logs and temporary system files
+*.log
+.DS_Store
+Thumbs.db
+
+# Files related to Netlify, if used
+.netlify/
+
+# Node.js dependencies (if used for asset pipeline or themes)
+node_modules/
+
+# Temporary Hugo files
+.cache/
+
+# OS-specific files
+*.swp
+.swo
+.idea/
+.vscode/
