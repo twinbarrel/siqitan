@@ -12,6 +12,7 @@ DefaultContentLanguage = "en"
 headTitle = "Andrew Tan"
 extraHead = ''
 mainSections = ["posts"]
+layout = "home"
 
 [[params.socials]]
 name = "RSS"
