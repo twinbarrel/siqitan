@@ -60,6 +60,8 @@ jobs:
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
+          # Add CNAME file for custom domain
+          echo "siqitan.com" > ./public/CNAME
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
